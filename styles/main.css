@@ -1,3 +1,7 @@
+.book_wrapper, .book_wrapper:before, .book_wrapper:after {
+    box-sizing: content-box;
+}
+
 .booklet {
     -moz-box-shadow: 0px 0px 1px #fff;
     -webkit-box-shadow: 0px 0px 1px #fff;
