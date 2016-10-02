@@ -34,13 +34,13 @@
         <link rel="stylesheet" href="styles/page3.css">
     </head>
     <body>
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper deep-purple lighten-1">
-                    <a href="#!" class="brand-logo" style="margin-left: 40px;">Luz</a>
-                </div>
-            </nav>
-        </div>
+        <!--<div class="navbar-fixed">-->
+            <!--<nav>-->
+                <!--<div class="nav-wrapper deep-purple lighten-1">-->
+                    <!--<a href="#!" class="brand-logo" style="margin-left: 40px;">Luz</a>-->
+                <!--</div>-->
+            <!--</nav>-->
+        <!--</div>-->
 
         <div class="container">
 
@@ -109,12 +109,12 @@
                             <div class="et-page book-page">
                                 <h1 class="kamu"><img src="images/kamu.png"></h1>
 
-                                <div class="angular">
+                                <div class="element new">
                                     <img src="images/angular.png">
                                 </div>
 
-                                <div class="element">TDD</div>
-                                <div class="element">Pairing remoto</div>
+                                <div class="element new">TDD</div>
+                                <div class="element new">Pairing remoto</div>
                             </div>
                         </div>
 
@@ -149,34 +149,79 @@
                              et-in="moveFromRightFade" et-out="moveToLeftFade">
                             <!-- <div class="et-page cover"></div> -->
                             <div class="et-page book-page">
-                                <h1 class="kushki"></h1>
+                                <h1 class="kushki"><img src="images/kushki.png" width="100"></h1>
+
+                                <div class="element new">Incepción</div>
+                                <div class="element new">TDD <img src="images/jasmine.png"></div>
+                                <div class="element new"><img src="images/stylus.png" class="big-image"></div>
+                            </div>
+                        </div>
+
+                        <div id="page-7" class="book-page et-wrapper et-rotate"
+                             et-in="moveFromRightFade" et-out="moveToLeftFade">
+                            <!-- <div class="et-page cover"></div> -->
+                            <div class="et-page book-page">
+                                <h1 class="kushki"><img src="images/kushki.png" width="100"></h1>
+
+                                <div class="element new"><img src="images/coffee.png"></div>
+                                <div class="element"><img src="images/java.png" class="big-image"> - JUnit
+                                </div>
+                                <div class="element"><img src="images/php.png" class="big-image"> -
+                                    PHPunit
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="page-8" class="book-page et-wrapper et-rotate"
+                             et-in="moveFromRightFade" et-out="moveToLeftFade">
+                            <!-- <div class="et-page cover"></div> -->
+                            <div class="et-page book-page">
+                                <h1 class="kushki">Feedback</h1>
 
                                 <div class="feedback-container">
-                                    <div class="feedback positive">
-                                        You are very result driven
+                                    <div class="feedback constructive">
+                                        Utilizar más las historias de usuario, criterios de
+                                        aceptación
                                     </div>
-                                    <div class="feedback positive">
-                                        You get a story to do, and do fast
+                                    <div class="feedback constructive">
+                                        Utilizar más el mingle
                                     </div>
-                                    <div class="feedback positive">
-                                        If you need help, you are not shy, and ask for it
-                                    </div>
-                                    <div class="feedback positive">
-                                        You are very responsible
-                                    </div>
-                                    <div class="feedback positive">
-                                        You assumes things that is not
-                                        right, and make became right
+                                    <div class="feedback constructive">
+                                        No hacer notar los errores inmediatamente
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                        <div id="page-9" class="book-page et-wrapper et-rotate"
+                             et-in="moveFromRightFade" et-out="moveToLeftFade">
+                            <!-- <div class="et-page cover"></div> -->
+                            <div class="et-page book-page">
+                                <h1 class="kushki">Feedback</h1>
 
-
+                                <div class="feedback-container">
+                                    <div class="feedback positive">
+                                        Buenas explicaciones
+                                    </div>
+                                    <div class="feedback positive">
+                                        Enfoque, Compromiso de acabar lo que empiezo
+                                    </div>
+                                    <div class="feedback positive">
+                                        Experiencia en lo que sé, busco lo que no
+                                    </div>
+                                    <div class="feedback positive">
+                                        Sugerencias para las soluciones
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
+        </div>
+        </div>
         </div>
 
 
@@ -184,7 +229,7 @@
 
 
         <script type="text/javascript">
-            var startingPage = 4;
+            var startingPage = 6;
 
             $(".cover").dblclick(function () {
                 $(this).remove();

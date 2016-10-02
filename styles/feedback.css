@@ -44,14 +44,10 @@
     -webkit-transform: rotate(-5deg);
 }
 
-.pushpin {
-    width: 35px;
-    position: absolute;
-    top: -12px;
-    left: 34%;
-
-}
-
 .feedback.positive {
     background-color: #b0d8b6;
+}
+
+.feedback.constructive {
+    background-color: #d89f52;
 }

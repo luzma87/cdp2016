@@ -22,6 +22,11 @@ h1.kamu {
     color: #fe3e4d;
 }
 
+h1.kushki {
+    background: transparent url(../images/h1-kushki.png) no-repeat bottom left;
+    color: #163a62;
+}
+
 h2 {
     font-family: 'Shadows Into Light', cursive
 }
