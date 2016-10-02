@@ -1,0 +1,57 @@
+.feedback-h1 {
+    margin-bottom: 15px;
+}
+
+.feedback {
+    width: 150px;
+    padding: 10px;
+    display: inline-table;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 25px;
+    line-height: 25px;
+    -webkit-box-shadow: 3px 3px 10px rgba(66, 66, 66, .7);
+    -webkit-transform: rotate(-6deg);
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 45;
+}
+
+.feedback:after {
+    width: 35px;
+    height: 55px;
+    position: absolute;
+    top: -12px;
+    left: 34%;
+    content: " ";
+    background: url('../images/pushpin.png') no-repeat;
+    background-size: contain;
+    z-index: 46;
+}
+
+.feedback:nth-child(even) {
+    -webkit-transform: rotate(4deg);
+}
+
+.feedback:nth-child(3n) {
+    -webkit-transform: rotate(5deg);
+}
+
+.feedback:nth-child(4n) {
+    -webkit-transform: rotate(-4deg);
+}
+
+.feedback:nth-child(5n) {
+    -webkit-transform: rotate(-5deg);
+}
+
+.pushpin {
+    width: 35px;
+    position: absolute;
+    top: -12px;
+    left: 34%;
+
+}
+
+.feedback.positive {
+    background-color: #b0d8b6;
+}

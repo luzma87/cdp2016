@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css?family=Bad+Script|Neucha|Roboto:400,700|Shadows+Into+Light|Shadows+Into+Light+Two" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Neucha|Reenie+Beanie|Shadows+Into+Light|Shadows+Into+Light+Two" rel="stylesheet">
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script> window.jQuery || document.write('<script src="booklet/jquery-2.1.0.min.js"><\/script>') </script>
@@ -23,8 +23,15 @@
         <script src="lib/booklet/src/jquery.easing.1.3.js"></script>
         <script src="lib/booklet/src/jquery.booklet.latest.min.js"></script>
 
+        <!--<link rel="stylesheet" type="text/css" href="lib/elementTransitions/elementTransitions.css"/>-->
+        <!--<script src="lib/elementTransitions/elementTransitions.js"></script>-->
+
         <link rel="stylesheet" href="styles/book.css">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/feedback.css">
+
+        <link rel="stylesheet" href="styles/pages1-2.css">
+        <link rel="stylesheet" href="styles/page3.css">
     </head>
     <body>
         <div class="navbar-fixed">
@@ -46,50 +53,114 @@
 
                 <div id="mybook" style="display:none;">
                     <div class="b-load">
-
-
-                        <div class="book-page" id="page-2">
-                            <h1>Antes de TW</h1>
-
-                            <div class="items-container">
-                                <div class="item">Groovy</div>
-                                <div class="item">Grails</div>
-                                <div class="item">HTML</div>
-                                <div class="item">Javascript</div>
-                                <div class="item">CSS</div>
-                                <div class="item secondary"><img src="images/php.png"></div>
-                                <div class="item secondary"><img src="images/android.png"></div>
-                                <img src="images/yawning.png" class="face bored">
-                            </div>
-                        </div>
-
-                        <div class="book-page" id="page-1">
+                        <div id="page-1" class="book-page">
                             <h1 class="main-title">Presentación del CDP 2016</h1>
                             <h2 class="subtitle deep-purple-text">Luz Marina Unda</h2>
                         </div>
 
+                        <div id="page-2" class="book-page et-wrapper et-rotate"
+                             et-in="moveFromRightFade" et-out="moveToLeftFade">
+                            <!-- <div class="et-page cover"></div> -->
+                            <div class="et-page book-page">
+                                <h1>Antes de TW</h1>
 
-                        <div>
-                            <img src="images/1.jpg" alt=""/>
-                            <h1>Slider Gallery</h1>
-                            <p>This tutorial is about creating a creative gallery...</p>
-                            <a href="#" class="article">Article</a>
-                            <a href="#" class="demo">Demo</a>
+                                <div class="items-container">
+                                    <div class="item item1">Groovy</div>
+                                    <div class="item item2">Grails</div>
+                                    <div class="item item3">HTML</div>
+                                    <div class="item item4">Javascript</div>
+                                    <div class="item item5">CSS</div>
+                                    <div class="item secondary item6"><img src="images/php.png">
+                                    </div>
+                                    <div class="item secondary item7">
+                                        <img src="images/android.png">
+                                    </div>
+                                    <img src="images/yawning.png" class="bored">
+                                </div>
+                            </div>
                         </div>
 
-                        <div>
-                            ...
+                        <div id="page-3" class="book-page et-wrapper et-rotate"
+                             et-in="moveFromLeftFade" et-out="moveToRightFade">
+                            <!-- <div class="et-page cover"></div> -->
+                            <div class="et-page book-page">
+                                <h1>Thoughtworks!</h1>
+
+                                <div class="items-container full">
+                                    <div class="item item1">Groovy</div>
+                                    <div class="item item2">Grails</div>
+                                    <div class="item item3">HTML</div>
+                                    <div class="item item4">Javascript</div>
+                                    <div class="item item5">CSS</div>
+                                    <div class="item page2 item6">PHP</div>
+                                    <div class="item secondary item7"><img src="images/android.png">
+                                    </div>
+                                    <div class="item page2 item8">Ruby</div>
+                                    <div class="item page2 item9">Pruebas</div>
+                                    <div class="item page2 item10">TDD</div>
+                                    <img src="images/cheetah.png" class="fast">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="page-4" class="book-page et-wrapper et-rotate"
+                             et-in="moveFromRightFade" et-out="moveToLeftFade">
+                            <!-- <div class="et-page cover"></div> -->
+                            <div class="et-page book-page">
+                                <h1 class="kamu"><img src="images/kamu.png"></h1>
+
+                                <div class="angular">
+                                    <img src="images/angular.png">
+                                </div>
+
+                                <div class="element">TDD</div>
+                                <div class="element">Pairing remoto</div>
+                            </div>
+                        </div>
+
+                        <div id="page-5" class="book-page et-wrapper et-rotate"
+                             et-in="moveFromRightFade" et-out="moveToLeftFade">
+                            <!-- <div class="et-page cover"></div> -->
+                            <div class="et-page book-page">
+                                <h1 class="kamu feedback-h1">Feedback</h1>
+
+                                <div class="feedback-container">
+                                    <div class="feedback positive">
+                                        You are very result driven
+                                    </div>
+                                    <div class="feedback positive">
+                                        You get a story to do, and do fast
+                                    </div>
+                                    <div class="feedback positive">
+                                        If you need help, you are not shy, and ask for it
+                                    </div>
+                                    <div class="feedback positive">
+                                        You are very responsible
+                                    </div>
+                                    <div class="feedback positive">
+                                        You assumes things that is not
+                                        right, and make became right
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                 </div>
             </div>
+        </div>
 
 
         </div>
 
 
         <script type="text/javascript">
+            var startingPage = 4;
+
+            $(".cover").dblclick(function () {
+                $(this).remove();
+            });
+
             var $mybook = $('#mybook');
             var $bttn_next = $('#next_page_button');
             var $bttn_prev = $('#prev_page_button');
@@ -97,8 +168,6 @@
             var $mybook_images = $mybook.find('img');
             var cnt_images = $mybook_images.length;
             var loaded = 0;
-            //preload all the images in the book,
-            //and then call the booklet plugin
 
             $mybook_images.each(function () {
                 var $img = $(this);
@@ -110,108 +179,40 @@
                         $bttn_next.show();
                         $bttn_prev.show();
                         $mybook.show().booklet({
-                            name         : "Luzma",
-                            // name of the booklet to display in the document title bar
-                            width        : 800,
-                            // container width
-                            height       : 500,
-                            // container height
-                            speed        : 600,
-                            // speed of the transition between pages
-                            direction    : 'LTR',
-                            // direction of the overall content
-                            // organization, default LTR, left to right, can be
-                            // RTL for languages which read right to left
-                            startingPage : 0,
-                            // index of the first page to be displayed
-                            easing       : 'easeInOutQuad',
-                            // easing method for complete transition
-                            easeIn       : 'easeInQuad',
-                            // easing method for first half of transition
-                            easeOut      : 'easeOutQuad',
-                            // easing method for second half of transition
-
+                            name               : "Luzma",
+                            width              : 800,
+                            height             : 500,
+                            speed              : 600,
+                            startingPage       : startingPage,
+                            easing             : 'easeInOutQuad',
+                            easeIn             : 'easeInQuad',
+                            easeOut            : 'easeOutQuad',
                             closed             : true,
-                            // start with the book "closed", will add empty
-                            // pages to beginning and end of book
                             closedFrontTitle   : null,
-                            // used with "closed", "menu" and "pageSelector",
-                            // determines title of blank starting page
                             closedFrontChapter : null,
-                            // used with "closed", "menu" and "chapterSelector",
-                            // determines chapter name of blank starting page
                             closedBackTitle    : null,
-                            // used with "closed", "menu" and "pageSelector",
-                            // determines chapter name of blank ending page
                             closedBackChapter  : null,
-                            // used with "closed", "menu" and "chapterSelector",
-                            // determines chapter name of blank ending page
                             covers             : false,
-                            // used with  "closed", makes first and last pages
-                            //into covers, without page numbers (if enabled)
-
-                            pagePadding : 10,
-                            // padding for each page wrapper
-                            pageNumbers : true,
-                            // display page numbers on each page
-
-                            hovers    : false,
-                            // enables preview pageturn hover animation,
-                            // shows a small preview of previous or next page on hover
-                            overlays  : false,
-                            // enables navigation using a page sized overlay,
-                            // when enabled links inside the content will
-                            // not be clickable
-                            tabs      : false,
-                            // adds tabs along the top of the pages
-                            tabWidth  : 60,
-                            // set the width of the tabs
-                            tabHeight : 20,
-                            // set the height of the tabs
-                            arrows    : false,
-                            // adds arrows overlayed over the book edges
-                            cursor    : 'pointer',
-                            // cursor css setting for side bar areas
-
-                            hash     : false,
-                            // enables navigation using a hash string,
-                            // ex: #/page/1 for page 1, will affect
-                            // all booklets with 'hash' enabled
-                            keyboard : true,
-                            // enables navigation with arrow keys
-                            // (left: previous, right: next)
-                            next     : $bttn_next,
-                            // selector for element to use as click
-                            // trigger for next page
-                            prev     : $bttn_prev,
-                            // selector for element to use as click
-                            // trigger for previous page
-
-                            menu            : null,
-                            // selector for element to use as the menu area,
-                            // required for 'pageSelector'
-                            pageSelector    : false,
-                            // enables navigation with a dropdown menu of pages,
-                            // requires 'menu'
-                            chapterSelector : false,
-                            // enables navigation with a dropdown menu of chapters,
-                            // determined by the "rel" attribute, requires 'menu'
-
+                            pagePadding        : 10,
+                            pageNumbers        : true,
+                            hovers             : false,
+                            overlays           : false,
+                            tabs               : false,
+                            tabWidth           : 60,
+                            tabHeight          : 20,
+                            arrows             : false,
+                            cursor             : 'pointer',
+                            hash               : false,
+                            keyboard           : true,
+                            next               : $bttn_next,
+                            prev               : $bttn_prev,
+                            menu               : null,
+                            pageSelector       : false,
+                            chapterSelector    : false,
                             shadows            : true,
-                            // display shadows on page animations
                             shadowTopFwdWidth  : 166,
-                            // shadow width for top forward anim
                             shadowTopBackWidth : 166,
-                            // shadow width for top back anim
                             shadowBtmWidth     : 50,
-                            // shadow width for bottom shadow
-
-                            before : function () {
-                            },
-                            // callback invoked before each page turn animation
-                            after  : function () {
-                            }
-                            // callback invoked after each page turn animation
                         });
                     }
                 }).attr('src', source);

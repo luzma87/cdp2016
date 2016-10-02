@@ -17,6 +17,11 @@ h1 {
     font-family: 'Shadows Into Light', cursive
 }
 
+h1.kamu {
+    background: transparent url(../images/h1-kamu.png) no-repeat bottom left;
+    color: #fe3e4d;
+}
+
 h2 {
     font-family: 'Shadows Into Light', cursive
 }
@@ -32,79 +37,13 @@ h2 {
     text-align: center;
 }
 
-.items-container {
-    box-sizing: border-box;
-    position: relative;
-    background: transparent url(../images/box_0.png) no-repeat bottom left;
-    background-size: contain;
-    margin-top: 85px;
-    width: 350px;
-    height: 260px;
-}
-
-.item {
+.cover {
+    background: url(../images/curtain.jpg);
     position: absolute;
-    font-size: 30px;
-}
-
-.secondary {
-    font-size: 20px;
-}
-
-.secondary img {
-    width: 40px;
-}
-
-.item:nth-child(1) {
-    top: -40px;
-    left: 60px;
-    -webkit-transform: rotate(35deg);
-    color: #3cb371;
-}
-
-.item:nth-child(2) {
-    top: -49px;
-    left: 99px;
-    -webkit-transform: rotate(70deg);
-    color: #dda0dd;
-}
-
-.item:nth-child(3) {
-    top: -66px;
-    left: 133px;
-    -webkit-transform: rotate(63deg);
-    color: #fd7118;
-}
-
-.item:nth-child(4) {
-    top: -57px;
-    left: 161px;
-    -webkit-transform: rotate(-49deg);
-    color: #4682b4;
-}
-
-.item:nth-child(5) {
-    top: -30px;
-    left: 226px;
-    -webkit-transform: rotate(-33deg);
-    color: #9ade00;
-}
-
-.item:nth-child(6) {
-    top: 8px;
-    left: 259px;
-    -webkit-transform: rotate(22deg);
-}
-
-.item:nth-child(7) {
-    top: 48px;
-    left: 8px;
-    -webkit-transform: rotate(-25deg)
-}
-
-.bored {
-    position: absolute;
-    width: 95px;
-    bottom: 10px;
-    right: 30px;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 398px;
+    height: 500px;
+    z-index: 99;
 }
