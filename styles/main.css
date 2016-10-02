@@ -11,19 +11,19 @@ h1 {
     margin-top: 0;
     color: #5e35b1;
     font-size: 26px;
-    background: transparent url(../images/h1.png) no-repeat bottom left;
+    background: transparent url(../images/h1/h1.png) no-repeat bottom left;
     padding-bottom: 7px;
     display: inline-block;
     font-family: 'Shadows Into Light', cursive
 }
 
 h1.kamu {
-    background: transparent url(../images/h1-kamu.png) no-repeat bottom left;
+    background: transparent url(../images/h1/h1-kamu.png) no-repeat bottom left;
     color: #fe3e4d;
 }
 
 h1.kushki {
-    background: transparent url(../images/h1-kushki.png) no-repeat bottom left;
+    background: transparent url(../images/h1/h1-kushki.png) no-repeat bottom left;
     color: #163a62;
 }
 
@@ -42,13 +42,3 @@ h2 {
     text-align: center;
 }
 
-.cover {
-    background: url(../images/curtain.jpg);
-    position: absolute;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 398px;
-    height: 500px;
-    z-index: 99;
-}

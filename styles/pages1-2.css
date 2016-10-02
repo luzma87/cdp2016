@@ -1,7 +1,7 @@
 .items-container {
     box-sizing: border-box;
     position: relative;
-    background: transparent url(../images/box_0.png) no-repeat bottom left;
+    background: transparent url(../images/before-after/box_0.png) no-repeat bottom left;
     background-size: contain;
     margin-top: 85px;
     width: 350px;
@@ -9,7 +9,7 @@
 }
 
 .items-container.full {
-    background: transparent url(../images/box.png) no-repeat bottom left;
+    background: transparent url(../images/before-after/box.png) no-repeat bottom left;
     background-size: contain;
 }
 

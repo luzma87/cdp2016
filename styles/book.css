@@ -12,7 +12,7 @@
 }
 
 .booklet .b-wrap-left {
-    background: #fff url(../images/left_bg.jpg) no-repeat top left;
+    background: #fff url(../images/book/left_bg.jpg) no-repeat top left;
     -webkit-border-top-left-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
     -moz-border-radius-topleft: 10px;
@@ -22,7 +22,7 @@
 }
 
 .booklet .b-wrap-right {
-    background: #efefef url(../images/right_bg.jpg) no-repeat top left;
+    background: #efefef url(../images/book/right_bg.jpg) no-repeat top left;
     -webkit-border-top-right-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
     -moz-border-radius-topright: 10px;
@@ -55,36 +55,7 @@
     width: 905px;
     height: 650px;
     position: relative;
-    background: transparent url(../images/bg.png) no-repeat 9px 27px;
-}
-
-.book_wrapper p {
-    font-size: 16px;
-}
-
-.book_wrapper a.article,
-.book_wrapper a.demo {
-    background: transparent url(../images/circle.png) no-repeat 50% 0;
-    display: block;
-    width: 95px;
-    height: 41px;
-    text-decoration: none;
-    outline: none;
-    font-size: 16px;
-    color: #555;
-    float: left;
-    line-height: 41px;
-    padding-left: 47px;
-}
-
-.book_wrapper a.demo {
-    margin-left: 50px;
-}
-
-.book_wrapper a.article:hover,
-.book_wrapper a.demo:hover {
-    background-position: 50% -41px;
-    color: #13386a;
+    background: transparent url(../images/book/bg.png) no-repeat 9px 27px;
 }
 
 a#next_page_button,
@@ -96,7 +67,7 @@ a#prev_page_button {
     cursor: pointer;
     margin-top: -20px;
     top: 50%;
-    background: transparent url(../images/buttons.png) no-repeat 0 -40px;
+    background: transparent url(../images/book/buttons.png) no-repeat 0 -40px;
 }
 
 a#prev_page_button {
@@ -127,7 +98,7 @@ a#prev_page_button:hover {
     color:#fff;
     padding-left:60px;
     font-size:15px;
-    background: #000 url(../images/ajax-loader.gif) no-repeat 10px 50%;
+    background: #000 url(../images/book/ajax-loader.gif) no-repeat 10px 50%;
     opacity: 0.7;
     z-index:9999;
     -moz-border-radius:20px;
