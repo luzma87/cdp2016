@@ -19,22 +19,6 @@
         <script src="lib/booklet/src/jquery.easing.1.3.js"></script>
         <script src="lib/booklet/src/jquery.booklet.latest.min.js"></script>
 
-
-        <script src="lib/cufon/cufon-yui.js" type="text/javascript"></script>
-        <script src="lib/cufon/ChunkFive_400.font.js" type="text/javascript"></script>
-        <script src="lib/cufon/Note_this_400.font.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            Cufon.replace('h1,p,.b-counter');
-            Cufon.replace('.book_wrapper a', {hover : true});
-            Cufon.replace('.title', {textShadow : '1px 1px #C59471', fontFamily : 'ChunkFive'});
-            Cufon.replace('.reference a', {
-                textShadow : '1px 1px #C59471',
-                fontFamily : 'ChunkFive'
-            });
-            Cufon.replace('.loading', {textShadow : '1px 1px #000', fontFamily : 'ChunkFive'});
-        </script>
-
-
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
@@ -202,7 +186,6 @@
                             }
                             // callback invoked after each page turn animation
                         });
-                        Cufon.refresh(); // if you want to use cufon
                     }
                 }).attr('src', source);
             });
