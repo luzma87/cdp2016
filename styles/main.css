@@ -28,6 +28,11 @@ h1.kushki {
     color: #163a62;
 }
 
+h1.away-day {
+    background: transparent url(../images/h1/h1-away-day.png) no-repeat bottom left;
+    color: #163a62;
+}
+
 h2 {
     font-family: 'Shadows Into Light', cursive
 }
