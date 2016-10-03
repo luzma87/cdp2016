@@ -33,6 +33,16 @@ h1.away-day {
     color: #163a62;
 }
 
+h1.django {
+    background: transparent url(../images/h1/h1-django-girls.png) no-repeat bottom left;
+    color: #f79420;
+}
+
+h1.mck {
+    background: transparent url(../images/h1/h1-mckinsey.png) no-repeat bottom left;
+    color: #163051;
+}
+
 h2 {
     font-family: 'Shadows Into Light', cursive
 }
