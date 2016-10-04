@@ -32,11 +32,15 @@
 .element.improve:after {
     background: url('../images/now/seedling.png') no-repeat;
     background-size: contain;
+    width: 21px;
+    height: 43px;
 }
 
 .element.improve-more:after {
     background: url('../images/now/sapling.png') no-repeat;
     background-size: contain;
+    width: 28px;
+    height: 30px;
 }
 
 .element img {

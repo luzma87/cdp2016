@@ -13,6 +13,7 @@
     -webkit-transform: rotate(-6deg);
     margin-left: 10px;
     margin-top: 10px;
+    position: relative;
     z-index: 45;
 }
 
@@ -25,7 +26,7 @@
     content: " ";
     background: url('../images/pushpin.png') no-repeat;
     background-size: contain;
-    z-index: 46;
+    z-index: 1000;
 }
 
 .feedback:nth-child(even) {
